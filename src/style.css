@@ -13,15 +13,15 @@ body {
 #game-container {
   display: grid;
   gap: 5px;
-  width: 300px;
-  height: 300px;
+  width: 420px;
+  height: 420px;
   border: 2px solid #333;
   background-color: #fff;
 }
 
 .cell {
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
   background-color: #e3e3e3;
   display: flex;
   align-items: center;
@@ -34,8 +34,8 @@ body {
 }
 
 .goblin {
-  width: 80%;
-  height: 80%;
+  width: 80px;
+  height: 80px;
 }
 
 #scoreboard {
